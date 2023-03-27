@@ -1,0 +1,49 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.header-title {
+    color: white;
+    font-size: 26px;
+}
+
+.list-header {
+    font-size: 28px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right span {
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}
+
+.article-content {
+    display: flex;
+    justify-content: flex-start;
+}
